@@ -33,6 +33,10 @@ button {
   font-family: "Poppins", sans-serif;
 }
 
+.mobile{
+    display: none;
+}
+
 /* Container */
 
 .container {
@@ -76,6 +80,14 @@ button {
 .showcase h2{
     font-size: 55px;
     font-weight: 900;
+    line-height: 1.1;
+    text-shadow: 2px 2px 4px #585858;
+}
+
+.showcase .head{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0;
     line-height: 1.1;
     text-shadow: 2px 2px 4px #585858;
 }
@@ -208,22 +220,58 @@ button {
     }
 
     .hashtags{
-        margin-top: 35px;
-        font-size: 25px;
+        margin: 50px 0;
+        font-size: 20px;
     }
 
-    .showcase h2{
-        font-size: 40px;
-        font-weight: 900;
-        line-height: 1.1;
-        text-shadow: 2px 2px 4px #585858;
+    .showcase .showcase-text{
+        display: none;
+    }
+
+    .continue-btn{
+        width: 180px;
+        margin: 30px auto;
+        padding: 15px;
+        font-size: 16px;
+        background-color: #ffffff;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 5px;
     }
 
     .footer{
         display: block;
     }
 
+    .footer-header{
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+    
+    .footer-header img{
+        width: 25px;
+        margin-right: 4px;
+    }
+
+    .download-btn{
+        display: none;
+    }
+
+    .others{
+        display: flex;
+        margin: 12px 0;
+        font-size: 14px;
+        flex-wrap: wrap;
+    }
+
     .badge{
+        display: none;
         margin-top: 20px;
+    }
+
+    .mobile{
+        display: block;
     }
 }
